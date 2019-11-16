@@ -15,8 +15,8 @@
 #define ORIENTATION 0   // 0 - правша, 1 - левша
 
 // пины
-#define BTN_UP 4
-#define BTN_SET 3
+#define BTN_UP 3
+#define BTN_SET 4
 #define BTN_DWN 2
 #define OLED_PWR1 5
 #define OLED_PWR2 6

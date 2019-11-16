@@ -27,7 +27,7 @@
 <a id="chapter-2"></a>
 ## Схемы
 ![SCHEME](https://github.com/AlexGyver/SDreader/blob/master/schemes/scheme.jpg)
-![SCHEME](https://github.com/AlexGyver/SDreader/blob/master/PCB/pcb(2).jpg)
+![SCHEME](https://github.com/AlexGyver/SDreader/blob/master/PCB/pcb%20(2).jpg)
 
 <a id="chapter-3"></a>
 ## Материалы и компоненты

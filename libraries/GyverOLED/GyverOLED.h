@@ -33,8 +33,10 @@
 
 #if defined(USE_MICRO_WIRE)
 #include <microWire.h>	// лёгкая библиотека Wire (для atmega328)
-#else
+#elif defined(USE_DEFAULT_WIRE)
 #include <Wire.h>		// обычная Wire
+#else
+#include <microWire.h>	// лёгкая библиотека Wire (для atmega328)
 #endif
 
 #include <Arduino.h>

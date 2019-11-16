@@ -7,10 +7,17 @@
   https://AlexGyver.ru/
 */
 
+// Ссылка для менеджера плат: https://alexgyver.github.io/package_GyverCore_index.json
+// Читать про GyverCore: https://github.com/AlexGyver/GyverCore
+// Настройки платы: Clock/Internal 8 MHz, Bootloader/Without bootloader
+
+// Настройки
+#define ORIENTATION 0   // 0 - правша, 1 - левша
+
 // пины
-#define BTN_UP 2
+#define BTN_UP 4
 #define BTN_SET 3
-#define BTN_DWN 4
+#define BTN_DWN 2
 #define OLED_PWR1 5
 #define OLED_PWR2 6
 #define SD_PWR A1
@@ -93,9 +100,12 @@ void loop() {
     if (mode == 0) {
       mode = 1;
       myFile = SD.open(setName, FILE_READ);
-      oled.setInverse(false);
+      oled.inverse(false);
       printFile();
-    } else if (mode == 1) {
+    }
+  }
+  if (buttSET.holded()) {
+    if (mode == 1) {
       mode = 0;
       myFile.close();
       printNames();
@@ -143,9 +153,9 @@ void printNames() {
   setName = "";
   while (true) {
     if (thisPosition == fileSet) {
-      oled.setInverse(true);
+      oled.inverse(true);
       if (filenames[i] != '\n') setName += filenames[i];
-    } else oled.setInverse(false);
+    } else oled.inverse(false);
 
     if ((thisPosition / 8) >= thisPage) {
       oled.print(filenames[i]);

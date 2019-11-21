@@ -11,13 +11,13 @@ void setup() {
 
   oled.scale1X();
   oled.print("Привет, ");
-  oled.setInverse(1);
+  oled.inverse(1);
   oled.println("мир!");
-  oled.setInverse(0);
+  oled.inverse(0);
 
   oled.scale2X();
   oled.print("Привет, ");
-  oled.setInverse(1);
+  oled.inverse(1);
   oled.println("мир!");
 
   oled.line(0, 0, 127, 63);

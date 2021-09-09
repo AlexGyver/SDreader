@@ -30,15 +30,6 @@
 ![SCHEME](https://github.com/AlexGyver/SDreader/blob/master/PCB/pcb%20(2).jpg)
 
 <a id="chapter-3"></a>
-## Материалы и компоненты
-### Ссылки оставлены на магазины, с которых я закупаюсь уже не один год
-* Arduino NANO https://ali.ski/2jgqxp
-* ATmega328p голая https://www.chipdip.ru/product/atmega328p-au
-* OLED дисплей 128*64 белый/голубой 4 пина https://ali.ski/oaMBr
-* Модуль слота MicroSD https://ali.ski/dUKiD6  https://ali.ski/8EI_QL
-* Кнопки https://ali.ski/m3ojo
-* Модуль с батарейкой https://ali.ski/f-uCo8
-
 ## Вам скорее всего пригодится
 * [Всё для пайки (паяльники и примочки)](http://alexgyver.ru/all-for-soldering/)
 * [Недорогие инструменты](http://alexgyver.ru/my_instruments/)

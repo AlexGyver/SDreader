@@ -32,12 +32,12 @@
 <a id="chapter-3"></a>
 ## Материалы и компоненты
 ### Ссылки оставлены на магазины, с которых я закупаюсь уже не один год
-* Arduino NANO https://ali.ski/2jgqxp
+* Arduino NANO https://ali.ski/Pb2mwy
 * ATmega328p голая https://www.chipdip.ru/product/atmega328p-au
-* OLED дисплей 128*64 белый/голубой 4 пина https://ali.ski/oaMBr
-* Модуль слота MicroSD https://ali.ski/dUKiD6  https://ali.ski/8EI_QL
-* Кнопки https://ali.ski/m3ojo
-* Модуль с батарейкой https://ali.ski/f-uCo8
+* OLED дисплей 128*64 белый/голубой 4 пина https://ali.ski/aD-JVP
+* Модуль слота MicroSD https://ali.ski/I4jfUA  https://ali.ski/VnEw7B
+* Кнопки https://ali.ski/RLQtB
+* Модуль с батарейкой https://ali.ski/_kdGjp
 
 ## Вам скорее всего пригодится
 * [Всё для пайки (паяльники и примочки)](http://alexgyver.ru/all-for-soldering/)
